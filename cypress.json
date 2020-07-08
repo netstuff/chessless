@@ -1,0 +1,13 @@
+{
+  "testFiles": "**/*.{feature,features}",
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "ignoreTestFiles": ["*.js", "*.md"],
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "tests/e2e/results/test-output-[hash].xml"
+  },
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "chromeWebSecurity": false,
+  "baseUrl": "http://localhost:80/"
+}
